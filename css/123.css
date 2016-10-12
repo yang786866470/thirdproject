@@ -10,7 +10,7 @@ body{
 	background-position: 0% 0%;
 	color: #666;
 	font-family:微软雅黑;
-	font-size: 12px;
+	font-size: 1em;
 	height: 100%;
     line-height: 20px;
 }
@@ -20,7 +20,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    width: 960px;
+    width: auto;
 }
 .div1{
 	position: absolute;
@@ -28,7 +28,7 @@ body{
 	left: 60px;
 	background:#ffffff;
 
-	
+
 }
 .div2{
 	background: #A01C20;
@@ -51,16 +51,14 @@ body{
 }
 ul{
 	color: #ffffff;
-    font-size: 20px;
+    font-size: 1.2em;
     font-weight: bold;
     height: 48px;
     list-style:none;
-    width: 1001px;
+    width:auto;
     margin: 0;
     padding: 0;
     line-height: 48px;
-    position: absolute;
-    left: 200px;
 }
 ul li{
 	float: left;
@@ -68,7 +66,7 @@ ul li{
     list-style:none;
     margin-left: -1px;
     position: relative;
-    width: 144px;
+    width:auto ;
 }
 .ul2{
 	position: absolute;
@@ -77,11 +75,11 @@ ul li{
 .wenzi{
 	text-decoration: none;
 	color: #ffffff;
-	background: rgba(0, 0, 0, 0) url("img/nav-line.gif") 
+	background: rgba(0, 0, 0, 0)
     no-repeat scroll right center;
     padding: 10 48 10 48;
 }
-.div4 ul li a:hover {
+.wenzi:hover {
     color: #fffffff;
     text-decoration:underline;
     background:#751413;
@@ -94,7 +92,7 @@ ul li{
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    width: 960px
+    width: 100%
 }
 ul li a{
 	text-align: center;
@@ -107,11 +105,11 @@ ul li a{
 	top: 500px;
 	left: 100px;
 }
-.div6{    
+.div6{
     color:gray;
     float: left;
-    font-size: 20px;
-    font-weight: normal;	
+    font-size: 1.5em;
+    font-weight: normal;
 }
 h3{
 	position: absolute;
@@ -121,11 +119,7 @@ h4{
 	position: absolute;
 	top: 80px;
 }
-h5{
-	position: absolute;
-	top: 50px;
-	left: -200px;
-}
+
 
 .div8 {
     margin-bottom: 10px;
@@ -136,27 +130,29 @@ h5{
     margin-bottom: 10px;
     overflow: hidden;
     position: relative;
+    margin-left: auto;
+    margin-right: auto;
 }
 .ul1 {
     margin-bottom: 10px;
     position: relative;
-    width: 1000px;
+    width: auto;
     display: block;
     list-style-type: none;
 }
 .li4{
 	height: 140px;
     margin: 5px 20px 20px 5px;
-    width: 174px;
+    width: 70%;
     background: #fff none repeat scroll 0 0;
     border-radius: 5px;
-    box-shadow: -1px 0 1px #fff, 2px 0 2px 
-    rgba(199, 199, 198, 1), 0 -1.5px 1.5px #fff, 0 2px 2px 
+    box-shadow: -1px 0 1px #fff, 2px 0 2px
+    rgba(199, 199, 198, 1), 0 -1.5px 1.5px #fff, 0 2px 2px
     rgba(199, 199, 198, 1);
     float: left;
     list-style-type: none;
     border:solid 1px transparent;
-     
+
 }
 .outer {
     display: block;
@@ -166,8 +162,8 @@ h5{
 }
 .lk{
     height: 90px;
-    width: 174px;
-    border-radius: 5px; 
+    width: 100%;
+    border-radius: 5px;
 
 }
 .ka{
@@ -181,7 +177,7 @@ h5{
     height: 13px;
     line-height: 10px;
     position: relative;
-    width: 170px;
+    width: 100%;
     font-size: large;
 }
 .k{
@@ -198,9 +194,51 @@ h5{
 	float: left;
 }
 .li4:hover{
-	border:solid 1px #F00; 
+	border:solid 1px #F00;
 
 }
+.div7{
+    background-color: #fff;
+    display: none;
+    position: absolute;
+    width: 360px;
+    z-index: 999;
+}
+.div15{
+    float: left;
+    height: 40px;
+    width: 120px;
+    z-index: 999;
+}
+.a1{
+    color: #9f9f9f;
+    display: block;
+    font-family: 微软雅黑;
+    font-size: 16px;
+    font-weight: normal;
+    height: 40px;
+    line-height: 40px;
+    text-shadow: none;
+    padding: 0 40 0 40;
+    text-decoration:none;
+}
+li:hover .div7{
+    display: block;
+}
+.a1:hover {
+    color: #fffffff;
+    text-decoration:underline;
+    background:#751413;
+    height: 40px;
+    padding: 0 40 0 40;
+}
+.back{
+    margin:0px;
+    padding:65 0 65 65;
+    height:100px;
+    position:fixed;bottom:50px; right:0px;
+}
+
 
 
 
